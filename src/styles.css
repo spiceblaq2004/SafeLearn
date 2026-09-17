@@ -1,0 +1,74 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@theme {
+  --font-sans: "Outfit", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Fraunces", ui-serif, Georgia, "Times New Roman", serif;
+
+  --color-bg: #f3efe6;
+  --color-fg: #1c211e;
+  --color-muted: #5e6862;
+  --color-surface: #fbf8f1;
+  --color-pine: #2c5d4e;
+  --color-pine-fg: #f6f3eb;
+  --color-ink: #141816;
+  --color-line: #d9d2c4;
+  --color-sand: #e7e0d2;
+  --color-good: #2f6b4f;
+  --color-warn: #8a5a28;
+  --color-bad: #8f3b32;
+
+  --radius-sm: 0.5rem;
+  --radius-md: 0.75rem;
+  --radius-lg: 1.25rem;
+  --radius-xl: 1.75rem;
+
+  --shadow-card:
+    0 0 0 1px rgb(28 33 30 / 0.06),
+    0 1px 2px rgb(28 33 30 / 0.05),
+    0 8px 24px -12px rgb(28 33 30 / 0.12);
+}
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  html,
+  body,
+  #app {
+    min-height: 100%;
+    background: var(--color-bg);
+    color: var(--color-fg);
+  }
+
+  body {
+    font-family: var(--font-sans);
+  }
+
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+    font-family: var(--font-display);
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

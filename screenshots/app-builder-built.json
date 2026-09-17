@@ -1,0 +1,41 @@
+{
+  "url": "http://127.0.0.1:8081/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "SafeLearn",
+      "hasCanvas": false,
+      "bodyTextLen": 1027,
+      "bodyTextHash": "5b1db0f185beae6aab773bd3202c11800c2d256493d42b53e1d1b3c7b3fe5614",
+      "bodyTextPrefix": "SafeLearn Courses Sign in UENR · DISASTER MANAGEMENT Learn ArcGI",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "SafeLearn",
+      "hasCanvas": false,
+      "bodyTextLen": 1027,
+      "bodyTextHash": "5b1db0f185beae6aab773bd3202c11800c2d256493d42b53e1d1b3c7b3fe5614",
+      "bodyTextPrefix": "SafeLearn Courses Sign in UENR · DISASTER MANAGEMENT Learn ArcGI",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-built.json",
+  "divergesFromBaseline": true,
+  "baselineReasons": [
+    "desktop: body text changed (853 -> 1027 chars, hash mismatch)",
+    "mobile: body text changed (853 -> 1027 chars, hash mismatch)"
+  ]
+}

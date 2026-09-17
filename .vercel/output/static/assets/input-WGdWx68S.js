@@ -1,0 +1,1 @@
+import{p as e}from"./safelearn-xNIXCMs9.js";import{i as t}from"./shell-BjTyGTxz.js";var n=e();function r({className:e,...r}){return(0,n.jsx)(`input`,{className:t(`h-11 w-full rounded-md border border-line bg-surface px-3 text-sm text-fg placeholder:text-muted/80`,`focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-pine`,e),...r})}export{r as t};

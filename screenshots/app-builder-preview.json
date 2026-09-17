@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "SafeLearn",
+      "hasCanvas": false,
+      "bodyTextLen": 987,
+      "bodyTextHash": "bcade170d031e583b0921412614abb00a0ebdb453e7518f9a9f2551fd1f7ec25",
+      "bodyTextPrefix": "SafeLearn Courses Sign in FIRE SAFETY · DISASTER MANAGEMENT A tu",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "SafeLearn",
+      "hasCanvas": false,
+      "bodyTextLen": 987,
+      "bodyTextHash": "bcade170d031e583b0921412614abb00a0ebdb453e7518f9a9f2551fd1f7ec25",
+      "bodyTextPrefix": "SafeLearn Courses Sign in FIRE SAFETY · DISASTER MANAGEMENT A tu",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}
